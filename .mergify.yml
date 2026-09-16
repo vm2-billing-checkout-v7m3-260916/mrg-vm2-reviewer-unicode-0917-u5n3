@@ -1,8 +1,0 @@
-pull_request_rules:
-  - name: VM2 Unicode status parity S9U4
-    conditions:
-      - title = VM2_STATUS_UNICODE_S9U4
-      - label = VM2_NEVER_FINALIZE_S9U4
-    actions:
-      merge:
-        method: merge
