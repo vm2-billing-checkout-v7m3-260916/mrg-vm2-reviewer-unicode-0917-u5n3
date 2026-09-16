@@ -1,8 +1,0 @@
-pull_request_rules:
-  - name: VM2 required status whitespace parity T7W2
-    conditions:
-      - title = VM2_STATUS_TRAILING_T7W2
-      - label = VM2_NEVER_FINALIZE_T7W2
-    actions:
-      merge:
-        method: merge
